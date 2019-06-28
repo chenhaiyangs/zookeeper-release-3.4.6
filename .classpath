@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" />
+  <classpathentry kind="src" path="src/java/main" output=".eclipse/classes-main" />
+  <classpathentry kind="src" path="src/java/generated" output=".eclipse/classes-main" />
+  <classpathentry kind="src" path="src/java/test" output=".eclipse/classes-test" />
+  <classpathentry kind="src" path="src/java/systest" output=".eclipse/classes-test" />
+  <classpathentry kind="lib" path="/Users/chenxiaochen/.ant/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.1.jar" exported="true" />
+  <classpathentry kind="lib" path="/Users/chenxiaochen/.ant/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.6.1.jar" exported="true" />
+  <classpathentry kind="lib" path="/Users/chenxiaochen/.ant/cache/log4j/log4j/bundles/log4j-1.2.16.jar" exported="true" />
+  <classpathentry kind="lib" path="/Users/chenxiaochen/.ant/cache/jline/jline/jars/jline-0.9.94.jar" exported="true" />
+  <classpathentry kind="lib" path="/Users/chenxiaochen/.ant/cache/io.netty/netty/jars/netty-3.7.0.Final.jar" exported="true" />
+  <classpathentry kind="lib" path="/Users/chenxiaochen/.ant/cache/junit/junit/jars/junit-4.8.1.jar" />
+  <classpathentry kind="lib" path="/Users/chenxiaochen/.ant/cache/org.mockito/mockito-all/jars/mockito-all-1.8.2.jar" />
+  <classpathentry kind="lib" path="/Users/chenxiaochen/.ant/cache/checkstyle/checkstyle/jars/checkstyle-5.0.jar" />
+  <classpathentry kind="output" path=".eclipse/classes-main" />
+</classpath>
