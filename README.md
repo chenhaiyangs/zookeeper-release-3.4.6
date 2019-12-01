@@ -69,5 +69,11 @@ ZooKeeper 采用了递增的事务 id 来识别，所有的 proposal（提议）
 低 32 位用来递增计数。
 当新产生的 peoposal 的时候，会依据数据库的两阶段过程，首先会向其他的 Server 发出事务执行请求，如果超过半数的机器都能执行并且能够成功，那么就会开始执行。<br/>
 
+### zookeeper的思维图
 
-
+##### 选举逻辑视图
+ ![选举逻辑视图](https://github.com/chenhaiyangs/zookeeper-release-3.4.6/blob/master/img/选举逻辑视图.png)
+##### 选举时序图
+![选举时序图](https://github.com/chenhaiyangs/zookeeper-release-3.4.6/blob/master/img/clipboard.png)
+##### zookeeper全景图
+![zookeeper全景图](https://github.com/chenhaiyangs/zookeeper-release-3.4.6/blob/master/img/zookeeper-all.jpg)
